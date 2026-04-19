@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="vDKXtwRkTNB0fcpz8wpr">
+    <mxGraphModel dx="2264" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="izFaMgL0HAn4DOiwI-wb-0" />
+        <mxCell id="izFaMgL0HAn4DOiwI-wb-1" parent="izFaMgL0HAn4DOiwI-wb-0" />
+        <mxCell id="7Sy2PwqWE8dhID15Fqwt-0" parent="izFaMgL0HAn4DOiwI-wb-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Web/Mobile App" vertex="1">
+          <mxGeometry height="54" width="177" x="344" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sy2PwqWE8dhID15Fqwt-1" parent="izFaMgL0HAn4DOiwI-wb-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Order Backend Service" vertex="1">
+          <mxGeometry height="54" width="222" x="321" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sy2PwqWE8dhID15Fqwt-2" parent="izFaMgL0HAn4DOiwI-wb-1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Main Database" vertex="1">
+          <mxGeometry height="75" width="118" x="20" y="276" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sy2PwqWE8dhID15Fqwt-3" parent="izFaMgL0HAn4DOiwI-wb-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Warehouse Management" vertex="1">
+          <mxGeometry height="54" width="233" x="188" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sy2PwqWE8dhID15Fqwt-4" parent="izFaMgL0HAn4DOiwI-wb-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Logistics Module" vertex="1">
+          <mxGeometry height="54" width="177" x="471" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sy2PwqWE8dhID15Fqwt-5" parent="izFaMgL0HAn4DOiwI-wb-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Courier External API" vertex="1">
+          <mxGeometry height="54" width="204" x="458" y="425" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sy2PwqWE8dhID15Fqwt-6" parent="izFaMgL0HAn4DOiwI-wb-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Payment Gateway" vertex="1">
+          <mxGeometry height="54" width="189" x="698" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sy2PwqWE8dhID15Fqwt-7" edge="1" parent="izFaMgL0HAn4DOiwI-wb-1" source="7Sy2PwqWE8dhID15Fqwt-0" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Sy2PwqWE8dhID15Fqwt-1" value="REST API">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sy2PwqWE8dhID15Fqwt-8" edge="1" parent="izFaMgL0HAn4DOiwI-wb-1" source="7Sy2PwqWE8dhID15Fqwt-1" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.87;entryX=0.5;entryY=0;rounded=0;" target="7Sy2PwqWE8dhID15Fqwt-2" value="SQL">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="79" y="239" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sy2PwqWE8dhID15Fqwt-9" edge="1" parent="izFaMgL0HAn4DOiwI-wb-1" source="7Sy2PwqWE8dhID15Fqwt-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.26;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Sy2PwqWE8dhID15Fqwt-3" value="IInventory">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="305" y="239" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sy2PwqWE8dhID15Fqwt-10" edge="1" parent="izFaMgL0HAn4DOiwI-wb-1" source="7Sy2PwqWE8dhID15Fqwt-1" style="curved=1;startArrow=none;endArrow=block;exitX=0.74;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="7Sy2PwqWE8dhID15Fqwt-4" value="IDelivery">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="239" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sy2PwqWE8dhID15Fqwt-11" edge="1" parent="izFaMgL0HAn4DOiwI-wb-1" source="7Sy2PwqWE8dhID15Fqwt-4" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" target="7Sy2PwqWE8dhID15Fqwt-5" value="Webhooks">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sy2PwqWE8dhID15Fqwt-12" edge="1" parent="izFaMgL0HAn4DOiwI-wb-1" source="7Sy2PwqWE8dhID15Fqwt-1" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.87;entryX=0.5;entryY=0;rounded=0;" target="7Sy2PwqWE8dhID15Fqwt-6" value="HTTPS">
+          <mxGeometry relative="1" x="-0.012" y="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="793" y="239" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Sy2PwqWE8dhID15Fqwt-13" parent="izFaMgL0HAn4DOiwI-wb-1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="" vertex="1">
+          <mxGeometry height="80" width="60" x="-10" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="7Sy2PwqWE8dhID15Fqwt-14" parent="izFaMgL0HAn4DOiwI-wb-1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" y="710" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
